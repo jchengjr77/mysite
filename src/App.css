@@ -1,0 +1,43 @@
+/* Style the header with a grey background and some padding */
+.header-cont {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #eeeeee;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.main-nav {
+  padding-left: 1rem;
+  font-size: 2rem;
+  font-weight: 300;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.subheader {
+  font-weight: 100;
+}
+
+.profile-pic-cont {
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px grey solid;
+  float: right;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.profile-pic-cont:hover { 
+  border: 2px orange solid;
+}
+
+.body-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5%;
+  padding-top: 15%;
+}
