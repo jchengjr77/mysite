@@ -1,3 +1,19 @@
+# Jonathan Cheng: My Site
+
+Made in order to more clearly and more effectively show people who I am. Pretty straightforward. On this site you can learn about my academics, athletics, hobbies, deepest darkest secrets, etc. 
+
+Please Enjoy.
+
+JJ Cheng
+
+
+
+
+
+Below is the README.md defaultly produced by `create-react-app` in the command line:
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
