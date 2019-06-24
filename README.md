@@ -6,9 +6,13 @@ Please Enjoy.
 
 JJ Cheng
 
+.
 
+.
 
+#### Site Status: Under Construction
 
+.
 
 Below is the README.md defaultly produced by `create-react-app` in the command line:
 
