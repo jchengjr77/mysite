@@ -30,7 +30,7 @@ export class Header extends Component {
         <Navbar color="faded" light>
             <NavbarToggler onClick={this.toggleNavbar} />
             <div>
-                <h1 className="display-3">Jonathan Cheng</h1>
+                <h1 className="display-4">Jonathan Cheng</h1>
             </div>
             <Collapse isOpen={!this.state.collapsed} navbar className="main-nav">
                 <Nav navbar>

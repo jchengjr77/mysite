@@ -1,6 +1,7 @@
 /* Style the header with a grey background and some padding */
 .header-cont {
   width: 100%;
+  height: auto;
   position: fixed;
   top: 0px;
   background-color: #eeeeee;
@@ -40,5 +41,5 @@
   flex-direction: column;
   justify-content: center;
   padding: 5%;
-  padding-top: 15%;
+  padding-top: 30vh;
 }
