@@ -2,7 +2,7 @@
   "name": "mysite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jchengjr77.github.io",
+  "homepage": "http://jchengjr77.github.io/mysite",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
