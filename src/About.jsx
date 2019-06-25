@@ -7,11 +7,18 @@ export class About extends Component {
       <div className="body-cont">
         <h3 className="subheader">About Me:</h3>
         <p>
-          <img
-            src={profilepic}
-            alt="Profile Pic"
-            className="profile-pic-cont"
-          />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/jonathan-cheng-7ab9b8141/"
+          >
+            <img
+              src={profilepic}
+              alt="Profile Pic"
+              className="profile-pic-cont"
+              onClick=""
+            />
+          </a>
           This is the About Me section. Lorem ipsum dolor sit amet, consectetur
           adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
           magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
