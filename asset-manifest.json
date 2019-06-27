@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.8fad0057.chunk.css",
-    "main.js": "/home/static/js/main.ca32615f.chunk.js",
-    "main.js.map": "/home/static/js/main.ca32615f.chunk.js.map",
-    "runtime~main.js": "/home/static/js/runtime~main.0990ee84.js",
-    "runtime~main.js.map": "/home/static/js/runtime~main.0990ee84.js.map",
-    "static/css/2.0624914a.chunk.css": "/home/static/css/2.0624914a.chunk.css",
-    "static/js/2.4a5e165e.chunk.js": "/home/static/js/2.4a5e165e.chunk.js",
-    "static/js/2.4a5e165e.chunk.js.map": "/home/static/js/2.4a5e165e.chunk.js.map",
-    "index.html": "/home/index.html",
-    "precache-manifest.35c92d15b0e1cbd73e7d00c1d9f17284.js": "/home/precache-manifest.35c92d15b0e1cbd73e7d00c1d9f17284.js",
-    "service-worker.js": "/home/service-worker.js",
-    "static/css/2.0624914a.chunk.css.map": "/home/static/css/2.0624914a.chunk.css.map",
-    "static/css/main.8fad0057.chunk.css.map": "/home/static/css/main.8fad0057.chunk.css.map",
-    "static/media/profpic.jpg": "/home/static/media/profpic.458eee97.jpg"
+    "main.css": "/mysite/static/css/main.8fad0057.chunk.css",
+    "main.js": "/mysite/static/js/main.47e7675a.chunk.js",
+    "main.js.map": "/mysite/static/js/main.47e7675a.chunk.js.map",
+    "runtime~main.js": "/mysite/static/js/runtime~main.2f907dfc.js",
+    "runtime~main.js.map": "/mysite/static/js/runtime~main.2f907dfc.js.map",
+    "static/css/2.0624914a.chunk.css": "/mysite/static/css/2.0624914a.chunk.css",
+    "static/js/2.4a5e165e.chunk.js": "/mysite/static/js/2.4a5e165e.chunk.js",
+    "static/js/2.4a5e165e.chunk.js.map": "/mysite/static/js/2.4a5e165e.chunk.js.map",
+    "index.html": "/mysite/index.html",
+    "precache-manifest.7afcf92f412e98d1e1ff8ec466bcf762.js": "/mysite/precache-manifest.7afcf92f412e98d1e1ff8ec466bcf762.js",
+    "service-worker.js": "/mysite/service-worker.js",
+    "static/css/2.0624914a.chunk.css.map": "/mysite/static/css/2.0624914a.chunk.css.map",
+    "static/css/main.8fad0057.chunk.css.map": "/mysite/static/css/main.8fad0057.chunk.css.map",
+    "static/media/profpic.jpg": "/mysite/static/media/profpic.458eee97.jpg"
   }
 }
