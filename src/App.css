@@ -36,10 +36,18 @@
   border: 2px orange solid;
 }
 
+.about-cont {
+  background-color: #fff7ea;
+}
+
+.contact-cont {
+  background-color: #eef7ff;
+}
+
 .body-cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 5%;
-  padding-top: 30vh;
+  padding-top: 20vh;
 }

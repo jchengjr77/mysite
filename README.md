@@ -1,6 +1,6 @@
 # Jonathan Cheng: My Site
 
-Made in order to more clearly and more effectively show people who I am. Pretty straightforward. On this site you can learn about my academics, athletics, hobbies, deepest darkest secrets, etc. 
+Pretty straightforward. On this site you can learn about my academics, athletics, hobbies, deepest darkest secrets, etc. 
 
 Please Enjoy.
 

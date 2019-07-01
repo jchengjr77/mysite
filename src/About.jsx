@@ -4,8 +4,8 @@ import profilepic from "./img/profpic.jpg";
 export class About extends Component {
   render() {
     return (
-      <div className="body-cont">
-        <h3 className="subheader">About Me:</h3>
+      <div className="about-cont">
+        <h1 className="subheader">About Me:</h1>
         <p>
           <a
             target="_blank"
@@ -16,7 +16,6 @@ export class About extends Component {
               src={profilepic}
               alt="Profile Pic"
               className="profile-pic-cont"
-              onClick=""
             />
           </a>
           This is the About Me section. Lorem ipsum dolor sit amet, consectetur
