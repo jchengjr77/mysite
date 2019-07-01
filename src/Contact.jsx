@@ -18,7 +18,7 @@ export class Contact extends Component {
           </FormGroup>
           <FormGroup>
             <Label for="message">Message: (what's up?)</Label>
-            <Input type="textarea" id="exampleText" />
+            <Input type="textarea" id="exampleText" placeholder="I was wondering about your..."/>
           </FormGroup>
         </Form>
       </div>
