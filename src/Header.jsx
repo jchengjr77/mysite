@@ -40,6 +40,9 @@ export class Header extends Component {
                 <NavItem>
                     <NavLink href="/contact">Contact</NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink href="/projects">Projects</NavLink>
+                </NavItem>
                 </Nav>
             </Collapse>
         </Navbar>
