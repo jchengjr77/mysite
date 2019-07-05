@@ -3,7 +3,8 @@ import React, { Component } from "react";
 export class Projects extends Component {
   render() {
     return (
-      <div className="project-cont">
+      <div className="project-cont" id="projects">
+        <a className="projects-anchor" id="projects"></a>
         <h1 className="subheader">Projects:</h1>
         <p>
           This is the Projects section. Lorem ipsum dolor sit amet, consectetur

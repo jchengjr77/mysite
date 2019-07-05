@@ -5,6 +5,7 @@ export class About extends Component {
   render() {
     return (
       <div className="about-cont">
+        <a className="about-anchor" id="about"></a>
         <h1 className="subheader">About Me:</h1>
         <p>
           <a

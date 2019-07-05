@@ -5,7 +5,8 @@ import { isLVal } from "@babel/types";
 export class Contact extends Component {
   render() {
     return (
-      <div className="contact-cont">
+      <div className="contact-cont" id="contact">
+        <a className="contact-anchor" id="contact"></a>
         <h1 className="subheader">Contact:</h1>
         <Form>
           <FormGroup>

@@ -15,7 +15,9 @@ function App() {
         alert("Site is currently: " + currentStatus);
       }}
     >
-      <Header />
+      <header>
+        <Header />
+      </header>
       <div className="body-cont">
         <About />
         <Projects />

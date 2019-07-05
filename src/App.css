@@ -40,14 +40,39 @@
   background-color: white;
 }
 
+a.about-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+.projects-cont {
+  background-color: white;
+}
+
+a.projects-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
 .contact-cont {
   background-color: white;
+}
+
+a.contact-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
 }
 
 .body-cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5%;
-  padding-top: 20vh;
+  margin: 5%;
+  margin-top: 20vh;
 }
