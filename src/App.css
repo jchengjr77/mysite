@@ -7,7 +7,7 @@
   background-color: #eeeeee;
   padding-left: 2%;
   padding-right: 2%;
-  box-shadow: 2px 2px 5px #e1e1e1;
+  overscroll-behavior: none;
 }
 
 .main-nav {
