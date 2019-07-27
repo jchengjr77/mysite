@@ -21,6 +21,7 @@ export class Contact extends Component {
             <Label for="message">Message: (what's up?)</Label>
             <Input type="textarea" id="exampleText" placeholder="I was wondering about your..."/>
           </FormGroup>
+          <Button>Submit</Button>
         </Form>
       </div>
     );
