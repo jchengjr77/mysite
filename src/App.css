@@ -76,3 +76,16 @@ a.contact-anchor {
   margin: 5%;
   margin-top: 20vh;
 }
+
+#submit-button {
+  background-color: rgb(240, 240, 255);
+  transition: all 250ms ease-in;
+}
+
+#submit-button:hover{
+  background-color: #64ffa4;
+}
+
+#submit-button:active{
+  background-color: #0e8a41;
+}

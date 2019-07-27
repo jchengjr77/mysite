@@ -11,17 +11,17 @@ export class Contact extends Component {
         <Form>
           <FormGroup>
             <Label for="personName">Name: (what should I call you?)</Label>
-            <Input id="personName" placeholder="John Doe" />
+            <Input id="personName" placeholder="John Doe" required/>
           </FormGroup>
           <FormGroup>
             <Label for="personEmail">Email: (where should I reply to?)</Label>
-            <Input id="personEmail" placeholder="johndoe@gmail.com" />
+            <Input id="personEmail" placeholder="johndoe@gmail.com" required/>
           </FormGroup>
           <FormGroup>
             <Label for="message">Message: (what's up?)</Label>
-            <Input type="textarea" id="exampleText" placeholder="I was wondering about your..."/>
+            <Input type="textarea" id="exampleText" placeholder="I was wondering about your..." required/>
           </FormGroup>
-          <Button>Submit</Button>
+          <Input type="submit" id="submit-button" value="Send Message"></Input>
         </Form>
       </div>
     );
