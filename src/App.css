@@ -15,6 +15,8 @@ body {
   background-color: #eeeeee;
   padding-left: 2%;
   padding-right: 2%;
+  z-index: 1;
+  box-shadow: 0 5px 20px -10px black;
 }
 
 .main-nav {
@@ -28,6 +30,8 @@ body {
 .subheader {
   font-weight: 100;
   font-size: 60px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .profile-pic-cont {
@@ -41,7 +45,7 @@ body {
   transition: all 500ms;
 }
 
-.profile-pic-cont:hover { 
+.profile-pic-cont:hover {
   border: 10px orange solid;
 }
 
@@ -97,7 +101,7 @@ a.contact-anchor {
 }
 
 .gallery-cont {
-  z-index: -1;
+  z-index: inherit;
 }
 
 #submit-button {
@@ -105,10 +109,10 @@ a.contact-anchor {
   transition: all 250ms ease-in;
 }
 
-#submit-button:hover{
+#submit-button:hover {
   background-color: #64ffa4;
 }
 
-#submit-button:active{
+#submit-button:active {
   background-color: #0e8a41;
 }

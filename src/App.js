@@ -10,13 +10,13 @@ import "./App.css";
 
 function App() {
   const currentStatus = "Under Construction";
-  let alerted =  false;
+  let alerted = false;
 
   return (
     // Status of the website is displayed as an alert
     <div
       onLoad={() => {
-        if (alerted === false)  {
+        if (alerted === false) {
           alert("Site is currently: " + currentStatus);
           alerted = true;
         }
@@ -26,10 +26,10 @@ function App() {
         <Header />
       </header>
       <div className="body-cont">
+        <Gallery />
         <About />
         <Projects />
         <Hobbies />
-        <Gallery />
         <Contact />
       </div>
     </div>
