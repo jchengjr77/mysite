@@ -2,17 +2,24 @@ import React from "react";
 import Header from "./Header.jsx";
 import About from "./About.jsx";
 import Projects from "./Projects.jsx";
+import Hobbies from "./Hobbies.jsx";
+import Gallery from "./Gallery.jsx";
 import Contact from "./Contact.jsx";
+
 import "./App.css";
 
 function App() {
   const currentStatus = "Under Construction";
+  let alerted =  false;
 
   return (
     // Status of the website is displayed as an alert
     <div
       onLoad={() => {
-        alert("Site is currently: " + currentStatus);
+        if (alerted === false)  {
+          alert("Site is currently: " + currentStatus);
+          alerted = true;
+        }
       }}
     >
       <header>
@@ -21,6 +28,8 @@ function App() {
       <div className="body-cont">
         <About />
         <Projects />
+        <Hobbies />
+        <Gallery />
         <Contact />
       </div>
     </div>

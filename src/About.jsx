@@ -5,9 +5,8 @@ export class About extends Component {
   render() {
     return (
       <div className="about-cont">
-        <a className="about-anchor" id="about"></a>
+        <a className="about-anchor" id="about" />
         <h1 className="subheader">About Me:</h1>
-        <p>
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -19,14 +18,26 @@ export class About extends Component {
               className="profile-pic-cont"
             />
           </a>
-          This is the About Me section. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+          <p className="about-text">
+            My name is Jonathan Cheng, but people call me JJ. I'm currently a
+            sophmore at Carnegie Mellon University, majoring in Electrical and
+            Computer Engineering, and pursueing a double major in Computer
+            Science. For more information, click on the picture to the left to
+            visit my LinkedIn.
+          </p>
+          <p className="about-text">
+            I love to learn. Picking up new skills is what I do in my free time.
+            Whether it be something practical (such as learning React through
+            this very site), or something more whimsical (like new magic
+            tricks). I've learned to play the ukulele, guitar, and electric
+            bass. I've learned to play Ultimate Frisbee, squash, and snowboard.
+            I've learned to appreciate complex problems and elegant solutions in
+            computer science. I've learned to enjoy a good deck of playing
+            cards. To showcase these aspects of myself a little bit, I created this website.
+          </p>
+          <p className="about-text-big">
+            I would love to show you a couple things! Keep scrolling...
+          </p>
       </div>
     );
   }

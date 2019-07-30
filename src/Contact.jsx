@@ -24,30 +24,30 @@ export class Contact extends Component {
         <h1 className="subheader">Contact:</h1>
         <Form onSubmit={() => this.handleSubmit()}>
           <FormGroup>
-            <Label for="personName">Name: (what should I call you?)</Label>
+            <Label for="personName">Your Name:</Label>
             <Input
               name="name"
               id="personName"
-              placeholder="John Doe"
+              placeholder="John Smith"
               required
             />
           </FormGroup>
           <FormGroup>
-            <Label for="personEmail">Email: (where should I reply to?)</Label>
+            <Label for="personEmail">Your Email:</Label>
             <Input
               name="email"
               id="personEmail"
-              placeholder="johndoe@gmail.com"
+              placeholder="john-smith@generic-email.com"
               required
             />
           </FormGroup>
           <FormGroup>
-            <Label for="message">Message: (what's up?)</Label>
+            <Label for="message">Message:</Label>
             <Input
               name="message"
               type="textarea"
               id="personBody"
-              placeholder="I was wondering about your..."
+              placeholder="Hey JJ,  ..."
               required
             />
           </FormGroup>

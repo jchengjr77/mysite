@@ -27,6 +27,7 @@ body {
 
 .subheader {
   font-weight: 100;
+  font-size: 60px;
 }
 
 .profile-pic-cont {
@@ -37,14 +38,15 @@ body {
   float: right;
   margin-left: 5%;
   margin-right: 2%;
+  transition: all 500ms;
 }
 
 .profile-pic-cont:hover { 
-  border: 2px orange solid;
+  border: 10px orange solid;
 }
 
 .about-cont {
-  background-color: white;
+  background-color: none;
 }
 
 a.about-anchor {
@@ -54,8 +56,18 @@ a.about-anchor {
   visibility: hidden;
 }
 
+.about-text {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.about-text-big {
+  font-size: 28px;
+  font-weight: 300;
+}
+
 .projects-cont {
-  background-color: white;
+  background-color: none;
 }
 
 a.projects-anchor {
@@ -66,7 +78,7 @@ a.projects-anchor {
 }
 
 .contact-cont {
-  background-color: white;
+  background-color: none;
 }
 
 a.contact-anchor {
@@ -82,6 +94,10 @@ a.contact-anchor {
   justify-content: center;
   margin: 5%;
   margin-top: 20vh;
+}
+
+.gallery-cont {
+  z-index: -1;
 }
 
 #submit-button {
