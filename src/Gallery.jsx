@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { UncontrolledCarousel } from "reactstrap";
 import peaceSign from "./img/peace-sign.JPG";
 import cardPhoto from "./img/cards.JPG";
 import layout from "./img/layout.JPG";
@@ -13,6 +12,7 @@ class Gallery extends Component {
   render() {
     return (
       <div className="gallery-cont">
+          <p className="gallery-anchor" id="gallery" href=""/>
         <SlideShow
           images={addressArray}
           width="920px"

@@ -3,8 +3,8 @@ import React, { Component } from "react";
 export class Hobbies extends Component {
   render() {
     return (
-      <div className="hobbies-cont" id="hobbies">
-        <a className="hobbies-anchor" id="hobbies" />
+      <div className="hobbies-cont">
+        <p className="hobbies-anchor" id="hobbies" />
         <h1 className="subheader">Hobbies:</h1>
         <p>
           This is the Hobbies section. Lorem ipsum dolor sit amet, consectetur

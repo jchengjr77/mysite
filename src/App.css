@@ -27,6 +27,13 @@ body {
   border-radius: 10px;
 }
 
+p.gallery-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
 .subheader {
   font-weight: 100;
   font-size: 60px;
@@ -53,7 +60,7 @@ body {
   background-color: none;
 }
 
-a.about-anchor {
+p.about-anchor {
   display: block;
   position: relative;
   top: -120px;
@@ -74,7 +81,56 @@ a.about-anchor {
   background-color: none;
 }
 
-a.projects-anchor {
+.proj-cell {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 2.5%;
+  margin-bottom: 7.5%;
+}
+
+.text-area {
+  margin-right: 5%;
+}
+
+#gol-vid {
+  width: 100%;
+  height: auto;
+}
+
+.proj-link {
+  color: rgb(40, 63, 128);
+}
+
+.proj-link:hover {
+  color: rgb(122, 144, 185);
+  text-decoration: none;
+}
+
+#poker-img {
+  width: 30%;
+  height: auto;
+}
+
+.small-header {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.tech-desc {
+  font-size: 15px;
+  font-weight: 200;
+  font-style: italic;
+}
+
+p.projects-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+p.hobbies-anchor {
   display: block;
   position: relative;
   top: -120px;
@@ -85,7 +141,7 @@ a.projects-anchor {
   background-color: none;
 }
 
-a.contact-anchor {
+p.contact-anchor {
   display: block;
   position: relative;
   top: -120px;

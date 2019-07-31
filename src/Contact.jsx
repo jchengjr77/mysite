@@ -19,8 +19,8 @@ export class Contact extends Component {
 
   render() {
     return (
-      <div className="contact-cont" id="contact">
-        <a className="contact-anchor" id="contact" />
+      <div className="contact-cont">
+        <p className="contact-anchor" id="contact" />
         <h1 className="subheader">Contact:</h1>
         <Form onSubmit={() => this.handleSubmit()}>
           <FormGroup>
