@@ -15,6 +15,7 @@ export class Contact extends Component {
     console.log("Name: " + name);
     console.log("Email: " + email);
     console.log("Message: " + message);
+    alert("Your message has been received. Thanks for reaching out!");
   }
 
   render() {

@@ -6,15 +6,29 @@ export class Hobbies extends Component {
       <div className="hobbies-cont">
         <p className="hobbies-anchor" id="hobbies" />
         <h1 className="subheader">Hobbies:</h1>
-        <p>
-          This is the Hobbies section. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <div id="hobby1" className="proj-cell">
+          <div className="text-area">
+            <h3 className="small-header">
+              <a
+                href="https://github.com/sparknation/Spark"
+                className="proj-link"
+              >
+                > Spark
+              </a>
+            </h3>
+            <p className="about-text">
+              Ever had a great idea and though, "If only someone would create
+              that..." Spark looks to solve exactly that. Spark is a social
+              platform designed to bridge the gap between great ideas and great
+              creators. The platform makes interesting ideas easily accessible
+              by engineers, designers, or even someone's curious aunt.
+            </p>
+            <p className="tech-desc">
+              This project, as of August 2019, is in development. It is being
+              built using React, Node.js, and MongoDB.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }

@@ -84,7 +84,7 @@ p.about-anchor {
 .proj-cell {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   margin-top: 2.5%;
   margin-bottom: 7.5%;
 }

@@ -30,7 +30,7 @@ export class Projects extends Component {
               built using React, Node.js, and MongoDB.
             </p>
           </div>
-          <img src={spark} />
+          <img src={spark} alt="spark-logo"/>
         </div>
         <div id="proj2" className="proj-cell">
           <div className="text-area">
@@ -58,6 +58,7 @@ export class Projects extends Component {
             height="360px"
             src="https://www.youtube.com/embed/hiVpmihZk9c"
             id="gol-vid"
+            title="3DGOL"
           />
         </div>
         <div id="proj3" className="proj-cell">
@@ -81,7 +82,7 @@ export class Projects extends Component {
               improvements. Built using React.
             </p>
           </div>
-          <img src={pokerimg} id="poker-img" />
+          <img src={pokerimg} id="poker-img" alt="poker-scrnshot"/>
         </div>
       </div>
     );
