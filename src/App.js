@@ -26,6 +26,7 @@ function App() {
         <Header />
       </header>
       <div className="body-cont">
+        <p className="top-anchor" id="top" href="" />
         <Gallery />
         <About />
         <Projects />

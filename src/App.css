@@ -52,12 +52,15 @@ p.gallery-anchor {
   transition: all 500ms;
 }
 
-.profile-pic-cont:hover {
-  border: 10px orange solid;
-}
-
 .about-cont {
   background-color: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#text-area-about{
+  padding-right: 10%;
 }
 
 p.about-anchor {
@@ -117,6 +120,12 @@ p.about-anchor {
   font-weight: 400;
 }
 
+.small-header-hob {
+  font-size: 25px;
+  font-weight: 400;
+  color: #795034;
+}
+
 .tech-desc {
   font-size: 15px;
   font-weight: 200;
@@ -160,6 +169,12 @@ p.contact-anchor {
   z-index: inherit;
 }
 
+.gallery-slideshow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #submit-button {
   background-color: rgb(240, 240, 255);
   transition: all 250ms ease-in;
@@ -171,4 +186,22 @@ p.contact-anchor {
 
 #submit-button:active {
   background-color: #0e8a41;
+}
+
+.bambam-img {
+  width: 30%;
+  height: auto;
+  border-radius: 20px;
+  border: 2px grey solid;
+  float: right;
+  margin-left: 5%;
+  margin-right: 2%;
+  transition: all 500ms;
+}
+
+p.top-anchor {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
 }

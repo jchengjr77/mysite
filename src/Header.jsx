@@ -55,7 +55,7 @@ export class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#gallery" onClick={this.toggleNavbar}>
+                <NavLink href="#top" onClick={this.toggleNavbar}>
                   Back To Top
                 </NavLink>
               </NavItem>

@@ -5,6 +5,7 @@
   "homepage": "http://jchengjr77.github.io/mysite/",
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "nuka-carousel": "^4.5.9",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-image-show": "^0.3.4",
