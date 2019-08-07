@@ -15,12 +15,32 @@ export class Contact extends Component {
     console.log("Name: " + name);
     console.log("Email: " + email);
     console.log("Message: " + message);
-    alert("Your message has been received. Thanks for reaching out!");
+
+    try {
+      window.emailjs.send(
+        "gmail",
+        "contact_form",
+        {
+          reply_to: email,
+          from_name: name,
+          message_body: message
+        },
+        "user_NUehnvTQG1q1kpQS2mble"
+      );
+      alert("Your message has been received. Thanks for reaching out!");
+    } catch (err) {
+      console.error("Failed to send message. Error: " + err);
+      alert("Failed to send message! Check console logs for error details.");
+    }
   }
 
   render() {
     return (
       <div className="contact-cont">
+        <script
+          type="text/javascript"
+          src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"
+        />
         <p className="contact-anchor" id="contact" />
         <h1 className="subheader">Contact:</h1>
         <Form onSubmit={() => this.handleSubmit()}>

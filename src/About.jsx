@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import profilepic from "./img/profpic.jpg";
+import resume from "./img/jchengjr77.pdf";
 
 export class About extends Component {
   render() {
@@ -24,14 +25,18 @@ export class About extends Component {
             </p>
             <p className="about-text">
               I love to learn. Picking up new skills is what I do in my free
-              time. Whether it be something practical (such as learning React
-              through this very site), or something more whimsical (like new
-              magic tricks). I've learned to play the ukulele, guitar, and
+              time. I've learned to play the ukulele, guitar, and
               electric bass. I've learned to play Ultimate Frisbee, squash, and
               snowboard. I've learned to appreciate complex problems and elegant
               solutions in computer science. I've learned to enjoy a good deck
               of playing cards. To showcase these aspects of myself a little
               bit, I created this website.
+            </p>
+            <p className="about-text">
+              For a more formal overview of myself, &nbsp;
+              <a href={resume} download="Jonathan_Cheng">
+                download my resume.
+              </a>
             </p>
             <p className="about-text-big">
               I would love to show you a couple things! Keep scrolling...

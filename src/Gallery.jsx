@@ -4,11 +4,8 @@ import cardPhoto from "./img/cards.JPG";
 import layout from "./img/layout.JPG";
 import greenShadows from "./img/green-shadows.JPG";
 import throwing from "./img/throw.JPG";
-import profile from "./img/profpic.jpg";
 // import SlideShow from "react-image-show";
 import Carousel from "nuka-carousel";
-
-const addressArray = [peaceSign, cardPhoto, layout, greenShadows, throwing];
 
 class Gallery extends Component {
   render() {
@@ -26,6 +23,7 @@ class Gallery extends Component {
           <img src={peaceSign} alt="peaceSign"></img>
           <img src={cardPhoto} alt="cardPhoto"></img>
           <img src={greenShadows} alt="greenShadows"></img>
+          <img src={layout} alt="layout"></img>
           <img src={throwing} alt="throwing"></img>
         </Carousel>
         {/* <SlideShow
