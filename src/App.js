@@ -9,15 +9,15 @@ import Contact from "./Contact.jsx";
 import "./App.css";
 
 function App() {
-  const currentStatus = "Under Construction";
+  const readyStatus = true;
   let alerted = false;
 
   return (
     // Status of the website is displayed as an alert
     <div
       onLoad={() => {
-        if (alerted === false) {
-          alert("Site is currently: " + currentStatus);
+        if (alerted === false & readyStatus === false) {
+          alert("Site is currently: Under Construction");
           alerted = true;
         }
       }}

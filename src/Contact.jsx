@@ -42,7 +42,7 @@ export class Contact extends Component {
           src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"
         />
         <p className="contact-anchor" id="contact" />
-        <h1 className="subheader">Contact:</h1>
+        <h1 className="subheader">Contact Me:</h1>
         <Form onSubmit={() => this.handleSubmit()}>
           <FormGroup>
             <Label for="personName">Your Name:</Label>
