@@ -12,6 +12,8 @@ export class Projects extends Component {
           <div className="text-area">
             <h3 className="small-header">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/sparknation/Spark"
                 className="proj-link"
               >
@@ -30,19 +32,21 @@ export class Projects extends Component {
               built using React, Node.js, and MongoDB.
             </p>
           </div>
-          <img src={spark} alt="spark-logo"/>
+          <img src={spark} alt="spark-logo" />
         </div>
         <div id="proj2" className="proj-cell">
           <div className="text-area">
             <h3 className="small-header">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/jchengjr77/3DGOL"
                 className="proj-link"
               >
                 > 3D Game of Life
               </a>
             </h3>
-            <p className="about-text"> 
+            <p className="about-text">
               In lieu of a hackathon project regarding multiplayer Game Of Life,
               I created a 3D version of Conway's Game Of Life. This version
               featured singleplayer and multiplayer modes, as well as rules
@@ -65,6 +69,8 @@ export class Projects extends Component {
           <div className="text-area">
             <h3 className="small-header">
               <a
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/jchengjr77/pokerstakes"
                 className="proj-link"
               >
@@ -82,7 +88,7 @@ export class Projects extends Component {
               improvements. Built using React.
             </p>
           </div>
-          <img src={pokerimg} id="poker-img" alt="poker-scrnshot"/>
+          <img src={pokerimg} id="poker-img" alt="poker-scrnshot" />
         </div>
       </div>
     );
