@@ -58,8 +58,6 @@ export class Projects extends Component {
             </p>
           </div>
           <iframe
-            width="640px"
-            height="360px"
             src="https://www.youtube.com/embed/hiVpmihZk9c"
             id="gol-vid"
             title="3DGOL"
