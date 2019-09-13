@@ -6,6 +6,18 @@ body {
   overscroll-behavior: none;
 }
 
+.gen-link {
+  color: rgb(151, 151, 255);
+  font-style: underline;
+  cursor: pointer;
+}
+
+.gen-link:hover {
+  color: rgb(188, 188, 255);
+  font-style: underline;
+  cursor: pointer;
+}
+
 /* Style the header with a grey background and some padding */
 .header-cont {
   width: 100%;
@@ -59,7 +71,7 @@ p.gallery-anchor {
   justify-content: flex-end;
 }
 
-#text-area-about{
+#text-area-about {
   padding-right: 10%;
 }
 

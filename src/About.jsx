@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import profilepic from "./img/profpic.jpg";
-import resume from "./img/jchengjr77.pdf";
 
 export class About extends Component {
   render() {
@@ -25,17 +24,22 @@ export class About extends Component {
             </p>
             <p className="about-text">
               I love to learn. Picking up new skills is what I do in my free
-              time. I've learned to play the ukulele, guitar, and
-              electric bass. I've learned to play Ultimate Frisbee, squash, and
-              snowboard. I've learned to appreciate complex problems and elegant
-              solutions in computer science. I've learned to enjoy a good deck
-              of playing cards. To showcase these aspects of myself a little
-              bit, I created this website.
+              time. I've learned to play the ukulele, guitar, and electric bass.
+              I've learned to play Ultimate Frisbee, squash, and snowboard. I've
+              learned to appreciate complex problems and elegant solutions in
+              computer science. I've learned to enjoy a good deck of playing
+              cards. To showcase these aspects of myself a little bit, I created
+              this website.
             </p>
             <p className="about-text">
               For a more formal overview of myself, &nbsp;
-              <a href={resume} download="Jonathan_Cheng">
-                download my resume.
+              <a
+                href=""
+                onClick={() =>
+                  window.open(require("./img/jchengjr77.pdf"), "_none")
+                }
+              >
+                Download my resume.
               </a>
             </p>
             <p className="about-text-big">
