@@ -55,13 +55,32 @@ p.gallery-anchor {
 
 .profile-pic-cont {
   width: 30%;
-  height: auto;
+  min-width: 350px;
+  height: 475px;
   border-radius: 20px;
   border: 2px grey solid;
   float: right;
   margin-left: 5%;
   margin-right: 2%;
   transition: all 500ms;
+}
+
+.flag-img-cont {
+  width: 30%;
+  min-width: 350px;
+  height: 250px;
+  float: right;
+  margin-left: 5%;
+  margin-right: 2%;
+}
+
+.card-img-cont {
+  width: 50%;
+  min-width: 210px;
+  max-height: 350px;
+  float: right;
+  margin-left: 5%;
+  margin-right: 2%;
 }
 
 .about-cont {
@@ -123,8 +142,10 @@ p.about-anchor {
 }
 
 #poker-img {
-  width: 30%;
+  width: 70%;
+  min-width: 450px;
   height: auto;
+  max-height: 300px;
 }
 
 .small-header {

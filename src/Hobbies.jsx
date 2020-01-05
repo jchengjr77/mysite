@@ -42,19 +42,7 @@ export class Hobbies extends Component {
             </p>
           </div>
           <div>
-            <SlideShow2
-              id="hobbies-slideshow-1"
-              images={addressArray3}
-              width="920px"
-              imagesWidth="400px"
-              imagesHeight="250px"
-              imagesHeightMobile="56vw"
-              thumbnailsWidth="500px"
-              thumbnailsHeight="12vw"
-              indicators
-              thumbnails
-              fixedImagesHeight
-            />
+            <img src={flagIMG1} alt="flagIMG1" className="flag-img-cont" />
           </div>
         </div>
         <div id="hobby2" className="proj-cell">
@@ -75,7 +63,7 @@ export class Hobbies extends Component {
             </p>
           </div>
           <div>
-            <SlideShow2
+            {/* <SlideShow2
               id="hobbies-slideshow-2"
               images={addressArray2}
               width="500px"
@@ -87,15 +75,16 @@ export class Hobbies extends Component {
               indicators
               thumbnails
               fixedImagesHeight
-            />
+            /> */}
+            <img src={cardIMG1} alt="cardIMG1" className="card-img-cont" />
           </div>
         </div>
         <div id="hobby3" className="proj-cell">
           <div className="text-area">
             <h3 className="small-header-hob">Bam Bam</h3>
             <p className="about-text">
-              I have a dog, and his name is Bambam. He's the best. If you
-              would like more of his photographic goodness, follow &nbsp;
+              I have a dog, and his name is Bambam. He's the best. If you would
+              like more of his photographic goodness, follow &nbsp;
               <a
                 target="_blank"
                 rel="noopener noreferrer"
