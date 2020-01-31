@@ -10,26 +10,33 @@ export class About extends Component {
         <div className="about-cont">
           <div id="text-area-about">
             <p className="about-text">
-              My name is Jonathan Cheng, but people call me JJ. I'm currently a
-              sophmore at Carnegie Mellon University, majoring in Electrical and
-              Computer Engineering, and pursueing a double major in Computer
-              Science. &nbsp;
+              My name is Jonathan Cheng, but people call me JJ. I'm a software
+              engineer that has a passion for making awesome products to solve
+              complex problems. I'm currently an undergraduate at Carnegie
+              Mellon University, majoring in Electrical and Computer
+              Engineering, with a minor in Computer Science.&nbsp;
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.linkedin.com/in/jonathan-cheng-7ab9b8141/"
+                href="https://www.linkedin.com/in/jchengjr77/"
               >
                 Here's my LinkedIn.
               </a>
+              &nbsp;Also,&nbsp;
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/jchengjr77"
+              >
+                Here's my Github.
+              </a>
             </p>
             <p className="about-text">
-              I love to learn. Picking up new skills is what I do in my free
-              time. I've learned to play the ukulele, guitar, and electric bass.
-              I've learned to play Ultimate Frisbee, squash, and snowboard. I've
-              learned to appreciate complex problems and elegant solutions in
-              computer science. I've learned to enjoy a good deck of playing
-              cards. To showcase these aspects of myself a little bit, I created
-              this website.
+              I love to learn. I've learned to play the ukulele, guitar, and
+              electric bass. I've learned to play Ultimate Frisbee, squash, and
+              snowboard. I've learned to appreciate elegant solutions in and
+              algorithms. I've learned to enjoy a good deck of playing cards. To
+              showcase these aspects of myself, I created this website.
             </p>
             <p className="about-text">
               For a more formal overview of myself, &nbsp;

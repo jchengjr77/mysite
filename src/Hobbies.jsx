@@ -63,19 +63,6 @@ export class Hobbies extends Component {
             </p>
           </div>
           <div>
-            {/* <SlideShow2
-              id="hobbies-slideshow-2"
-              images={addressArray2}
-              width="500px"
-              imagesWidth="400px"
-              imagesHeight="250px"
-              imagesHeightMobile="56vw"
-              thumbnailsWidth="500px"
-              thumbnailsHeight="12vw"
-              indicators
-              thumbnails
-              fixedImagesHeight
-            /> */}
             <img src={cardIMG1} alt="cardIMG1" className="card-img-cont" />
           </div>
         </div>
