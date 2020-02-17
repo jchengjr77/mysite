@@ -47,10 +47,11 @@ export class Projects extends Component {
               </a>
             </h3>
             <p className="about-text">
-              In lieu of a hackathon project regarding multiplayer Game Of Life,
-              I created a 3D version of Conway's Game Of Life. This version
-              featured singleplayer and multiplayer modes, as well as rules
-              customizations, evolution of cells in 3D space, and stat tracking.
+              Following of a hackathon project regarding multiplayer Game Of
+              Life, I created a 3D version of Conway's Game Of Life. This
+              version featured singleplayer and multiplayer modes, as well as
+              rules customizations, evolution of cells in 3D space, and stat
+              tracking.
             </p>
             <p className="tech-desc">
               This project was built in November of 2018, and is written in
