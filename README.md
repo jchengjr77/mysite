@@ -1,6 +1,6 @@
 # Jonathan Cheng: My Site
 
-Pretty straightforward. On this site you can learn about my academics, athletics, hobbies, deepest darkest secrets, etc. 
+Pretty straightforward. On this site you can learn about my academics, athletics, hobbies, deepest darkest secrets, etc.
 
 Please Enjoy.
 
@@ -10,13 +10,11 @@ JJ Cheng
 
 .
 
-#### Site Status: Under Construction
+#### Site Status: Live
 
 .
 
 Below is the README.md defaultly produced by `create-react-app` in the command line:
-
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
