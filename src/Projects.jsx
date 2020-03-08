@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import moments from "./img/moments.png";
 import pokerimg from "./img/poker.png";
+import Image from "react-graceful-image";
 
 export class Projects extends Component {
   render() {
@@ -32,7 +33,7 @@ export class Projects extends Component {
               Database and user authentication is done with Firebase.
             </p>
           </div>
-          <img className="moments-logo" src={moments} alt="moments-logo" />
+          <Image className="moments-logo" src={moments} alt="moments-logo" />
         </div>
         <div id="proj2" className="proj-cell">
           <div className="text-area">
@@ -89,7 +90,7 @@ export class Projects extends Component {
               improvements. Built using React.
             </p>
           </div>
-          <img src={pokerimg} id="poker-img" alt="poker-scrnshot" />
+          <Image src={pokerimg} alt="poker-scrnshot" className="poker-img" />
         </div>
       </div>
     );

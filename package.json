@@ -4,14 +4,15 @@
   "private": true,
   "homepage": "http://jjcheng.me",
   "dependencies": {
-    "bootstrap": "^4.3.1",
-    "emailjs-com": "^2.3.2",
-    "nuka-carousel": "^4.5.9",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "bootstrap": "^4.4.1",
+    "emailjs-com": "^2.4.1",
+    "nuka-carousel": "^4.6.5",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-graceful-image": "^1.2.12",
     "react-image-show": "^0.3.4",
-    "react-scripts": "3.0.1",
-    "reactstrap": "^8.0.0"
+    "react-scripts": "^3.4.0",
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,6 +38,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }

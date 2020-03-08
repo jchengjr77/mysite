@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Image from "react-graceful-image";
 import flagIMG1 from "./img/flag-portrait.jpg";
 
 import cardIMG1 from "./img/card1.jpg";
@@ -29,7 +30,7 @@ export class Hobbies extends Component {
             </p>
           </div>
           <div>
-            <img src={flagIMG1} alt="flagIMG1" className="flag-img-cont" />
+            <Image src={flagIMG1} alt="flagIMG1" className="flag-img-cont" />
           </div>
         </div>
         <div id="hobby2" className="proj-cell">
@@ -50,7 +51,7 @@ export class Hobbies extends Component {
             </p>
           </div>
           <div>
-            <img src={cardIMG1} alt="cardIMG1" className="card-img-cont" />
+            <Image src={cardIMG1} alt="cardIMG1" className="card-img-cont" />
           </div>
         </div>
         <div id="hobby3" className="proj-cell">
@@ -69,7 +70,7 @@ export class Hobbies extends Component {
               &nbsp; on Instagram!
             </p>
           </div>
-          <img src={bambam} alt="bambam" className="bambam-img" />
+          <Image src={bambam} alt="bambam" className="bambam-img" />
         </div>
       </div>
     );

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import profilepic from "./img/profpic.jpg";
+import Image from "react-graceful-image";
 
 export class About extends Component {
   render() {
@@ -53,7 +54,11 @@ export class About extends Component {
               I would love to show you a couple things! Keep scrolling...
             </p>
           </div>
-          <img src={profilepic} alt="profilepic" className="profile-pic-cont" />
+          <Image
+            src={profilepic}
+            alt="profilepic"
+            className="profile-pic-cont"
+          />
         </div>
       </div>
     );
