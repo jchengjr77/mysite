@@ -123,6 +123,13 @@ p.about-anchor {
   margin-bottom: 7.5%;
 }
 
+.moments-logo {
+  width: 30%;
+  min-width: 450px;
+  height: auto;
+  max-height: 200px;
+}
+
 .text-area {
   margin-right: 5%;
 }

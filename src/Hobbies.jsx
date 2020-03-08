@@ -1,22 +1,9 @@
 import React, { Component } from "react";
 import flagIMG1 from "./img/flag-portrait.jpg";
-import flagIMG2 from "./img/flag-candid.jpg";
-import hkteamIMG from "./img/hkteam.JPG";
-import harmfulIMG1 from "./img/harmful.JPG";
-import vertIMG from "./img/vert.JPG";
 
 import cardIMG1 from "./img/card1.jpg";
-import cardIMG2 from "./img/card2.jpg";
-import cardIMG3 from "./img/card3.jpg";
-import cardIMG4 from "./img/card4.jpg";
-import cardIMG5 from "./img/card5.jpg";
 
 import bambam from "./img/bambam1.jpg";
-
-import SlideShow2 from "react-image-show";
-
-const addressArray3 = [flagIMG1, hkteamIMG, harmfulIMG1, vertIMG, flagIMG2];
-const addressArray2 = [cardIMG1, cardIMG2, cardIMG3, cardIMG4, cardIMG5];
 
 export class Hobbies extends Component {
   render() {

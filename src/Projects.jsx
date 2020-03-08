@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import spark from "./img/sparklogo.png";
+import moments from "./img/moments.png";
 import pokerimg from "./img/poker.png";
 
 export class Projects extends Component {
@@ -14,25 +14,25 @@ export class Projects extends Component {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/sparknation/Spark"
+                href="https://github.com/jchengjr77/moments-app"
                 className="proj-link"
               >
-                > Spark
+                > Moments (Github)
               </a>
             </h3>
             <p className="about-text">
-              Ever had a great idea and though, "If only someone would create
-              that..." Spark looks to solve exactly that. Spark is a social
-              platform designed to bridge the gap between great ideas and great
-              creators. The platform makes interesting ideas easily accessible
-              by engineers, designers, or even someone's curious aunt.
+              Moments is a cross-platform mobile app for remebering events and
+              good times. Record funny quotes from friends, certain times you
+              felt good, milestones during your week, or anything worth
+              remembering. Moments keeps those memories safe for you, and shows
+              you one every day.
             </p>
             <p className="tech-desc">
-              This project, as of August 2019, is in development. It is being
-              built using React, Node.js, and MongoDB.
+              Built using React Native, with Expo for the workflow management.
+              Database and user authentication is done with Firebase.
             </p>
           </div>
-          <img src={spark} alt="spark-logo" />
+          <img className="moments-logo" src={moments} alt="moments-logo" />
         </div>
         <div id="proj2" className="proj-cell">
           <div className="text-area">
@@ -43,7 +43,7 @@ export class Projects extends Component {
                 href="https://github.com/jchengjr77/3DGOL"
                 className="proj-link"
               >
-                > 3D Game of Life
+                > 3D Game of Life (Github)
               </a>
             </h3>
             <p className="about-text">
@@ -75,7 +75,7 @@ export class Projects extends Component {
                 href="https://github.com/jchengjr77/pokerstakes"
                 className="proj-link"
               >
-                > 1v1 Poker Stakes
+                > 1v1 Poker Stakes (Github)
               </a>
             </h3>
             <p className="about-text">
