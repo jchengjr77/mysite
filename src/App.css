@@ -1,249 +1,256 @@
 html {
-  overscroll-behavior: none;
+    overscroll-behavior: none;
 }
 
 body {
-  overscroll-behavior: none;
+    overscroll-behavior: none;
 }
 
 .gen-link {
-  color: rgb(151, 151, 255);
-  font-style: underline;
-  cursor: pointer;
+    color: rgb(151, 151, 255);
+    font-style: underline;
+    cursor: pointer;
 }
 
 .gen-link:hover {
-  color: rgb(188, 188, 255);
-  font-style: underline;
-  cursor: pointer;
+    color: rgb(188, 188, 255);
+    font-style: underline;
+    cursor: pointer;
 }
 
 /* Style the header with a grey background and some padding */
 .header-cont {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  top: 0px;
-  background-color: #eeeeee;
-  padding-left: 2%;
-  padding-right: 2%;
-  z-index: 1;
-  box-shadow: 0 5px 20px -10px black;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0px;
+    background-color: #eeeeee;
+    padding-left: 2%;
+    padding-right: 2%;
+    z-index: 1;
+    box-shadow: 0 5px 20px -10px black;
 }
 
 .main-nav {
-  padding-left: 1rem;
-  font-size: 2rem;
-  font-weight: 300;
-  background-color: #eeeeee;
-  border-radius: 10px;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+    background-color: #eeeeee;
+    border-radius: 10px;
 }
 
 p.gallery-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 .subheader {
-  font-weight: 100;
-  font-size: 60px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+    font-weight: 100;
+    font-size: 60px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .profile-pic-cont {
-  width: 30%;
-  min-width: 350px;
-  height: 475px;
-  border-radius: 20px;
-  border: 2px grey solid;
-  float: right;
-  margin-left: 5%;
-  margin-right: 2%;
-  transition: all 500ms;
+    width: 30%;
+    min-width: 350px;
+    height: 475px;
+    border-radius: 20px;
+    border: 2px grey solid;
+    float: right;
+    margin-left: 5%;
+    margin-right: 2%;
+    transition: all 500ms;
 }
 
 .flag-img-cont {
-  width: 30%;
-  min-width: 350px;
-  height: 250px;
-  float: right;
-  margin-left: 5%;
-  margin-right: 2%;
+    width: 30%;
+    min-width: 350px;
+    height: 250px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 .card-img-cont {
-  width: 50%;
-  min-width: 210px;
-  max-height: 350px;
-  float: right;
-  margin-left: 5%;
-  margin-right: 2%;
+    width: 50%;
+    min-width: 210px;
+    max-height: 350px;
+    float: right;
+    margin-left: 5%;
+    margin-right: 2%;
 }
 
 .about-cont {
-  background-color: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 #text-area-about {
-  padding-right: 10%;
+    padding-right: 10%;
 }
 
 p.about-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 .about-text {
-  font-size: 20px;
-  font-weight: 300;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 .about-text-big {
-  font-size: 28px;
-  font-weight: 300;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .projects-cont {
-  background-color: none;
+    background-color: none;
 }
 
 .proj-cell {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 2.5%;
-  margin-bottom: 7.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2.5%;
+    margin-bottom: 7.5%;
 }
 
 .moments-logo {
-  width: 30%;
-  min-width: 450px;
-  height: auto;
-  max-height: 200px;
+    width: 30%;
+    min-width: 450px;
+    height: auto;
+    max-height: 200px;
+}
+
+.vacanti-logo {
+    width: 30%;
+    min-width: 450px;
+    height: auto;
+    max-height: 200px;
 }
 
 .text-area {
-  margin-right: 5%;
+    margin-right: 5%;
 }
 
 #gol-vid {
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
 }
 
 .proj-link {
-  color: rgb(40, 63, 128);
+    color: rgb(40, 63, 128);
 }
 
 .proj-link:hover {
-  color: rgb(122, 144, 185);
-  text-decoration: none;
+    color: rgb(122, 144, 185);
+    text-decoration: none;
 }
 
 .poker-img {
-  width: 10%;
-  min-width: 450px;
-  height: auto;
-  max-height: 300px;
+    width: 10%;
+    min-width: 450px;
+    height: auto;
+    max-height: 300px;
 }
 
 .small-header {
-  font-size: 25px;
-  font-weight: 400;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 .small-header-hob {
-  font-size: 25px;
-  font-weight: 400;
-  color: #795034;
+    font-size: 25px;
+    font-weight: 400;
+    color: #795034;
 }
 
 .tech-desc {
-  font-size: 15px;
-  font-weight: 200;
-  font-style: italic;
+    font-size: 15px;
+    font-weight: 200;
+    font-style: italic;
 }
 
 p.projects-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 p.hobbies-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 .contact-cont {
-  background-color: none;
+    background-color: none;
 }
 
 p.contact-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
 
 .body-cont {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 5%;
-  margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5%;
+    margin-top: 20vh;
 }
 
 .gallery-cont {
-  z-index: inherit;
+    z-index: inherit;
 }
 
 .gallery-slideshow {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #submit-button {
-  background-color: rgb(240, 240, 255);
-  transition: all 250ms ease-in;
+    background-color: rgb(240, 240, 255);
+    transition: all 250ms ease-in;
 }
 
 #submit-button:hover {
-  background-color: #64ffa4;
+    background-color: #64ffa4;
 }
 
 #submit-button:active {
-  background-color: #0e8a41;
+    background-color: #0e8a41;
 }
 
 .bambam-img {
-  width: 30%;
-  max-width: 300px;
-  height: auto;
-  max-height: 600px;
-  border-radius: 20px;
-  border: 2px grey solid;
-  float: right;
-  margin-left: 5%;
-  margin-right: 2%;
-  transition: all 500ms;
+    width: 30%;
+    max-width: 300px;
+    height: auto;
+    max-height: 600px;
+    border-radius: 20px;
+    border: 2px grey solid;
+    float: right;
+    margin-left: 5%;
+    margin-right: 2%;
+    transition: all 500ms;
 }
 
 p.top-anchor {
-  display: block;
-  position: relative;
-  top: -120px;
-  visibility: hidden;
+    display: block;
+    position: relative;
+    top: -120px;
+    visibility: hidden;
 }
