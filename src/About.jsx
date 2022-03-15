@@ -11,8 +11,13 @@ export class About extends Component {
                 <div className="about-cont">
                     <div id="text-area-about">
                         <p className="about-text">
-                            My name is Jonathan Cheng, but people call me JJ. I'm a software
-                            engineer that has a passion for making awesome products to solve complex
+                            I love to learn. Over the years, I've taught myself to play the ukulele, guitar, and electric bass. I've taken on Muay Thai, Jiu Jitsu, Ultimate Frisbee, squash, and snowboarding. I've learned
+                            to draw things, and enjoy a good deck of playing cards. To showcase these aspects of
+                            myself, I created this website.
+                        </p>
+                        <p className="about-text">
+                            My name is Jonathan Cheng, people call me JJ. I'm a software
+                            engineer that loves making awesome products to solve complex
                             problems. I'm currently an undergraduate at Carnegie Mellon University,
                             majoring in Electrical and Computer Engineering, with a minor in
                             Computer Science.&nbsp;
@@ -31,13 +36,6 @@ export class About extends Component {
                             >
                                 Here's my Github.
                             </a>
-                        </p>
-                        <p className="about-text">
-                            I love to learn. I've learned to play the ukulele, guitar, and electric
-                            bass. I've learned to play Ultimate Frisbee, squash, and snowboard. I've
-                            learned to appreciate elegant solutions in and algorithms. I've learned
-                            to enjoy a good deck of playing cards. To showcase these aspects of
-                            myself, I created this website.
                         </p>
                         <p className="about-text">
                             For a more formal overview of myself, &nbsp;

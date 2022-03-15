@@ -40,13 +40,13 @@ export class Header extends Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#projects" onClick={this.toggleNavbar}>
-                  Projects
+                <NavLink href="#hobbies" onClick={this.toggleNavbar}>
+                  Hobbies
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#hobbies" onClick={this.toggleNavbar}>
-                  Hobbies
+                <NavLink href="#projects" onClick={this.toggleNavbar}>
+                  Projects
                 </NavLink>
               </NavItem>
               <NavItem>

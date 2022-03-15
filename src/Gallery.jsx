@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import peaceSign from "./img/peace-sign.JPG";
 import cardPhoto from "./img/cards.JPG";
 import layout from "./img/layout.JPG";
-import greenShadows from "./img/green-shadows.JPG";
-import throwing from "./img/throw.JPG";
+import shane from './img/shane.PNG';
+import max from './img/max_grecke_1.PNG';
+import phoenix from './img/phoenix1.PNG';
 // import SlideShow from "react-image-show";
 import Carousel from "nuka-carousel";
 import Image from "react-graceful-image";
@@ -22,10 +23,11 @@ class Gallery extends Component {
           className="gallery-slideshow"
         >
           <Image src={peaceSign} alt="peaceSign" />
+          <Image src={shane} alt="Shane" />
           <Image src={cardPhoto} alt="cardPhoto" />
-          <Image src={greenShadows} alt="greenShadows" />
+          <Image src={max} alt="maxgrecke" />
+          <Image src={phoenix} alt="phoenix" />
           <Image src={layout} alt="layout" />
-          <Image src={throwing} alt="throwing" />
         </Carousel>
         {/* <SlideShow
           id="gallery-slideshow"

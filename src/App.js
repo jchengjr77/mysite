@@ -1,12 +1,12 @@
-import React from "react";
-import Header from "./Header.jsx";
-import About from "./About.jsx";
-import Projects from "./Projects.jsx";
-import Hobbies from "./Hobbies.jsx";
-import Gallery from "./Gallery.jsx";
-import Contact from "./Contact.jsx";
+import React from 'react';
+import Header from './Header.jsx';
+import About from './About.jsx';
+import Projects from './Projects.jsx';
+import Hobbies from './Hobbies.jsx';
+import Gallery from './Gallery.jsx';
+import Contact from './Contact.jsx';
 
-import "./App.css";
+import './App.css';
 
 function App() {
   const readyStatus = true;
@@ -16,8 +16,8 @@ function App() {
     // Status of the website is displayed as an alert
     <div
       onLoad={() => {
-        if (alerted === false & readyStatus === false) {
-          alert("Site is currently: Under Construction");
+        if ((alerted === false) & (readyStatus === false)) {
+          alert('Site is currently: Under Construction');
           alerted = true;
         }
       }}
@@ -25,12 +25,12 @@ function App() {
       <header>
         <Header />
       </header>
-      <div className="body-cont">
-        <p className="top-anchor" id="top" href="" />
+      <div className='body-cont'>
+        <p className='top-anchor' id='top' href='' />
         <Gallery />
         <About />
-        <Projects />
         <Hobbies />
+        <Projects />
         <Contact />
       </div>
     </div>

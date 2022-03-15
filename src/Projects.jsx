@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import moments from './img/moments.png';
 import vacanti from './img/vacanti-logo-big.png';
+import storyline from './img/storyline.png';
 import canaveral from './img/canaveral.png';
-import pokerimg from './img/poker.png';
 import Image from 'react-graceful-image';
 
 export class Projects extends Component {
@@ -11,6 +10,35 @@ export class Projects extends Component {
             <div className='project-cont'>
                 <p className='projects-anchor' id='projects' />
                 <h1 className='subheader'>Projects:</h1>
+                <div id='proj6' className='proj-cell'>
+                    <div className='text-area'>
+                        <h3 className='small-header'>
+                            <a
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                href='https://storyline-seven.vercel.app'
+                                className='proj-link'
+                            >
+                                > Storyline (storyline-seven.vercel.app)
+                            </a>
+                        </h3>
+                        <p className='about-text'>
+                            A blockchain based writing platform. Readers can come read the full storyline free of cost, and writers can contribute their own additions to the storyline and own their contributions as NFTs. {' '}
+                            <a href='https://github.com/storyline-team/storyline'>
+                                Here's the github repo.
+                            </a>
+                        </p>
+                        <p className='tech-desc'>
+                            Built using Solidity, React, and the Truffle Suite.
+                            Testing done with Jest tests. Deployed on the Rinkeby ethereum test network.
+                        </p>
+                    </div>
+                    <Image
+                        className='storyline-logo'
+                        src={storyline}
+                        alt='storyline-logo'
+                    />
+                </div>
                 <div id='proj5' className='proj-cell'>
                     <div className='text-area'>
                         <h3 className='small-header'>
@@ -80,38 +108,6 @@ export class Projects extends Component {
                         alt='vacanti-logo'
                     />
                 </div>
-                <div id='proj2' className='proj-cell'>
-                    <div className='text-area'>
-                        <h3 className='small-header'>
-                            <a
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                href='https://github.com/jchengjr77/moments-app'
-                                className='proj-link'
-                            >
-                                > Moments (Github)
-                            </a>
-                        </h3>
-                        <p className='about-text'>
-                            Moments is a cross-platform mobile app for
-                            remebering events and good times. Record funny
-                            quotes from friends, certain times you felt good,
-                            milestones during your week, or anything worth
-                            remembering. Moments keeps those memories safe for
-                            you, and shows you one every day.
-                        </p>
-                        <p className='tech-desc'>
-                            Built using React Native, with Expo for the workflow
-                            management. Database and user authentication is done
-                            with Firebase.
-                        </p>
-                    </div>
-                    <Image
-                        className='moments-logo'
-                        src={moments}
-                        alt='moments-logo'
-                    />
-                </div>
                 <div id='proj3' className='proj-cell'>
                     <div className='text-area'>
                         <h3 className='small-header'>
@@ -143,36 +139,6 @@ export class Projects extends Component {
                         src='https://www.youtube.com/embed/hiVpmihZk9c'
                         id='gol-vid'
                         title='3DGOL'
-                    />
-                </div>
-                <div id='proj4' className='proj-cell'>
-                    <div className='text-area'>
-                        <h3 className='small-header'>
-                            <a
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                href='https://github.com/jchengjr77/pokerstakes'
-                                className='proj-link'
-                            >
-                                > 1v1 Poker Stakes (Github)
-                            </a>
-                        </h3>
-                        <p className='about-text'>
-                            Something I created just for fun. I don't own a set
-                            of poker chips, and my friends enjoy playing 1v1
-                            poker matches on the go. Thus, I threw together a
-                            heads-up poker chip counter so that we could play
-                            wherever and whenever.
-                        </p>
-                        <p className='tech-desc'>
-                            Created in July 2019, currently undergoeing
-                            bug-fixes and minor improvements. Built using React.
-                        </p>
-                    </div>
-                    <Image
-                        src={pokerimg}
-                        alt='poker-scrnshot'
-                        className='poker-img'
                     />
                 </div>
             </div>
